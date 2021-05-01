@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/d19ae639f0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="slides">
+
+        <div class="overlay"></div>
+
+        <div class="slides-container">
+          <img src="images/pixel-city.jpeg" alt="city">
+          <img src="images/pixel-forest.jpeg" alt="forest">
+          <img src="images/pixel-deer.png" alt="town">
+        </div>
+
+        <div class="title-message">
+            <div class="heading">
+                <p class="name">LUCIUS VANSLYKE</p>
+                <p class="desc typed"></p>
+
+            </div>
+
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+          </nav>
+      </div>
+
+      <div class="loader">
+          <div class="inner"></div>
+      </div>
+
+      <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Menu</a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+             </ul>
+            </ul>
+            </div>
+  
+      </nav>
+
+
+      <div id="about" class="section">
+          <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="flip-box">
+                      <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="about-image" src="images/about-pixel.png" alt="about-image-pixel">
+                        </div>
+                        <div class="flip-box-back">
+                            <img class="about-image" src="images/about.jpg" alt="about-image">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-7">
+                  <div class="about-text-wrap">
+                  
+                    <h4 id="greeting">Hi there! I'm Lucius, as the giant letters above say.</h4>
+                    
+                  <p class="about-p">I'm a Metro-Detroit native currently based in New York City. Before stumbling into STEM, I found my passion in Sociology and cultural analysis in hopes of better understanding patterns in our society. Taking a required Intro to Python course in college completely rocked my world, and allowed me to combine my passion for understanding others with the ability to create things that can make people's lives easier.</p>
+                  <p class="about-p">Fast forwarding to now, I'm a second year Computer Science student with a 4.0 GPA and residing member of PTK Honor Society, however I'm currently on leave due to the pandemic. In search of more immediate workforce experience, I ended up a Flatiron School graduate with an even further expanded tech toolkit. </p>
+                  <p class="about-p">I have experience in a variety of programming languages such as Ruby on Rails, Javascript/React, C#, and so on - though my first loves will always be C++ and Python!</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div id="skills" class="skillsSection section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <h2>TECHNICAL SKILLS</h2>
+                      <p>A representation of my proficiency in each skill</p>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="skill">
+                            <span class="chart" data-percent="91">
+                                <span class="percent">91</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Javascript</h4>
+                            <p>Most frequently used language in frontend web-based projects. A reliable friend.</p>
+                        </div>
+
+
+                        <div class="skill">
+                            <span class="chart" data-percent="82">
+                                <span class="percent">82</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Python</h4>
+                            <p>Baby's first programming language. A go to for projects with more complex logic.</p>
+                        </div>
+
+
+                        <div class="skill">
+                            <span class="chart" data-percent="76">
+                                <span class="percent">76</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>C++</h4>
+                            <p>My favorite programming language. Comfortable but eager to learn more. Memory allocation!</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="44">
+                                <span class="percent">44</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>C#</h4>
+                            <p>Hobby language for fun in the Unity engine. Transitioning from C++ to # isn't bad, but alas - still a newbie.</p>
+                        </div>
+
+    
+                        <div class="skill">
+                            <span class="chart" data-percent="89">
+                                <span class="percent">89</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Ruby on Rails</h4>
+                            <p>Most frequently used language when generating backend web APIs.</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="57">
+                                <span class="percent">57</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>jQuery</h4>
+                            <p>After my bootcamp I dedicated enough study time to comfortably say - I dabble!</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="85">
+                                <span class="percent">85</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>HTML</h4>
+                            <p>Very comfortable, though I hope to improve my use of semantic tags for further accessibility.</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="72">
+                                <span class="percent">72</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>CSS</h4>
+                            <p>We have a complicated, yet loving relationship. I really enjoy animations (when they work)!</p>
+                        </div>
+
+
+                        <div class="skill">
+                            <span class="chart" data-percent="62">
+                                <span class="percent">62</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>PostgreSQL</h4>
+                            <p>Used in most of my web based projects. So far, she's never done me wrong.</p>
+                        </div>
+
+
+                        <div class="skill">
+                            <span class="chart" data-percent="87">
+                                <span class="percent">87</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Git</h4>
+                            <p>Worked on a variety of collaborative projects that utilized Git workflow. Hoping to improve!</p>
+                        </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+      <div id="portfolio" class="portfolioSection section">
+          <div class="container">
+              <div class="row">
+                  <div class="heading">
+                    <div class="resume-container">
+                        <a href="https://docs.google.com/document/d/1F6AalTDohm6_qXpmpwclq1sTCdOl3_-nL-Rp_zUwrEw/edit?usp=sharing" target="_blank" class="resume-btn">RESUME</a>
+                    </div>
+                      <h2>PORTFOLIO</h2>
+                  </div>
+
+                  <div class="filter">
+                      <ul id="filters">
+                          <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                          <li><a href="#" data-filter=".apps">Projects</a></li>
+                          <li><a href="#" data-filter=".writing">Blogs</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="items-container">
+                      <ul class="items">
+
+
+                          <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                              <div class="item">
+                                  <img src="images/portfolio/thumbnails/astar-thumbnail.jpeg">
+
+                                  <div class="icons">
+                                      <a href="https://youtu.be/aj5Mbc6OxmE" title="View Demo" class="openBtn" data-fancybox fancybox.iframe data-caption="Python A* Pathfinder">
+                                        <i class="fas fa-play"></i>
+                                      </a>
+
+                                      <a href="https://github.com/fangbalm/astar-pathfinder" target="_blank" class="projectLink" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                  </div>
+
+                                  <div class="image-overlay"><p>A* Pathfinder - Python</p></div>
+                              </div>
+                          </li>
+
+                          <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/space-surfer-thumbnail.jpeg">
+
+                                <div class="icons">
+                                    <a href="https://youtu.be/oGpZx7FFxBA" title="View Demo" class="openBtn" data-fancybox fancybox.iframe data-caption="Space Surfer (vanilla Javascript & HTML5 Canvas)">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+
+                                    <a href="https://github.com/fangbalm/space-surfer" target="_blank" class="projectLink" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Space Surfer - JS</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/convey-thumbnail.jpeg">
+
+                                <div class="icons">
+                                    <a href="https://youtu.be/DFUk-Qqb3OQ" title="View Demo" class="openBtn" data-fancybox fancybox.iframe data-caption="Convey - React.js Flatiron School Final Project Demo">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+
+                                    <a href="https://github.com/fangbalm/convey" target="_blank" class="projectLink" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Convey - React.js/Ruby on Rails</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/escape-thumbnail.png">
+
+                                <div class="icons">
+                                    <a href="https://github.com/fangbalm/escape-frontend" target="_blank" class="projectLink solo" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>E-Scape - JS/Ruby on Rails</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/sudoku-thumbnail.png">
+
+                                <div class="icons">
+                                    <a href="https://github.com/fangbalm/sudoku-solver-cpp" target="_blank" class="projectLink solo" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Sudoku Solver - C++</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="writing col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/racial-biases-algo-thumbnail.jpeg">
+
+                                <div class="icons">
+                                    <a href="https://blog.usejournal.com/racial-biases-in-algorithms-a-shallow-dive-for-the-junior-dev-4720758ad105" target="_blank" class="projectLink solo" title="Racial Biases in Algorithms: A Shallow Dive for the Junior Software Dev">
+                                        <i class="fas fa-book"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Racial Biases in Algorithms - Medium</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="writing col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/css-blog-thumbnail.png">
+
+                                <div class="icons">
+                                    <a href="https://medium.com/nerd-for-tech/what-is-the-deal-simplifying-css-with-the-is-pseudo-class-e2116dbadf4f" target="_blank" class="projectLink solo" title="What :is() the deal? Simplifying CSS with the :is() pseudo-class">
+                                        <i class="fas fa-book"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Simplifying CSS with the :is() pseudo-class - Medium</p></div>
+                            </div>
+                        </li>
+
+
+                        <li onclick="" class="writing col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/diversity-blog-thumbnail.png">
+
+                                <div class="icons">
+                                    <a href="https://lu-vanslyke.medium.com/black-innovators-in-tech-why-diversity-matters-9cfd3065ed8" target="_blank" class="projectLink solo" title="Black Innovators in Tech — Why Diversity Matters">
+                                        <i class="fas fa-book"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Black Innovators in Tech — Why Diversity Matters? - Medium</p></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="writing col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/trello-blog-thumbnail.jpeg">
+
+                                <div class="icons">
+                                    <a href="https://lu-vanslyke.medium.com/tackling-trello-and-teamwork-d958d0d3c28a" target="_blank" class="projectLink solo" title="Tackling Trello and Teamwork!">
+                                        <i class="fas fa-book"></i>
+                                  </a>
+                                </div>
+                                <div class="image-overlay"><p>Tackling Trello and Teamwork! - Medium</p></div>
+                            </div>
+                        </li>
+
+
+
+                      </ul>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+
+      <div id="contact" class="contactSection section">
+          <div class="col-md-12 text-center">
+              <p class="subHeading">Questions? Just wanna chat? Message me!</p>
+              <a href=""></a>
+			<button class="contact-btn">Get In Touch</button>
+            <div id="status"></div>
+
+			<form id="contact-form" action="https://formspree.io/f/myylkjzg" method="POST">
+				<a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+          </div>
+          
+      </div>
+
+      <div id="links" class="copyrightSection">
+          <div class="col-md-12 text-center">
+            <p>&copy; Copyright Lucius VanSlyke 2021</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/luvanslyke/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/fangbalm" target="_blank">Github</a></li>
+                <li><a href="https://lu-vanslyke.medium.com/" target="_blank">Medium</a></li>
+            </ul>
+          </div>
+      </div>
+
+
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"> </script>
+    
+</body>
+</html>
